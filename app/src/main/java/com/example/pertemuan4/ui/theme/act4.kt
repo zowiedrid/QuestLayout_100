@@ -57,10 +57,15 @@ fun ActivityKeempat(modifier: Modifier){
                     modifier = Modifier.size(100.dp)
                         .padding(10.dp)
                 )
+
+                Spacer(modifier = Modifier.width(30.dp))
+
+                Column(
+                    modifier = Modifier.padding(10.dp)
+                ) {
+
+                }
             }
-            Spacer(modifier = Modifier.width(30.dp))
-
-
         }
     }
 }
