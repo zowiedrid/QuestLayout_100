@@ -68,7 +68,11 @@ fun ActivityKeempat(modifier: Modifier){
                         fontSize = 20.sp,
                         fontWeight = FontWeight.Bold
                     )
-
+                    Text(
+                        stringResource(R.string.alamat),
+                        fontSize = 15.sp,
+                        fontWeight = FontWeight.Thin
+                    )
                 }
             }
         }
