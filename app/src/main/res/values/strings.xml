@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">pertemuan4</string>
+    <string name="prodi">Teknologi Informasi</string>
+    <string name="univ">Universitas Muhammadiyah Yogyakarta</string>
+    <string name="nama">Ilham Fadhilah</string>
+    <string name="alamat">Maguwo, Sleman</string>
+    <string name="copy">Copyright</string>
 </resources>
