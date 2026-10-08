@@ -1,6 +1,7 @@
 package com.example.pertemuan4.ui.theme
 
 import androidx.compose.foundation.Image
+import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
@@ -74,6 +75,14 @@ fun ActivityKeempat(modifier: Modifier){
                         fontWeight = FontWeight.Thin
                     )
                 }
+            }
+            Box(
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .padding(10.dp),
+                contentAlignment = Alignment.CenterEnd
+            ) {
+
             }
         }
     }
