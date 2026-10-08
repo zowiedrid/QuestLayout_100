@@ -1,6 +1,7 @@
 package com.example.pertemuan4.ui.theme
 
 import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
@@ -43,6 +44,16 @@ fun ActivityKeempat(modifier: Modifier){
                 .fillMaxWidth()
                 .padding(all = 12.dp),
             colors = CardDefaults.cardColors(containerColor = colorResource(id = R.color.card_bg))
-        ) { }
+        ) {
+            Row(
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .padding(all = 12.dp),
+                verticalAlignment = Alignment.CenterVertically
+            ) {
+
+            }
+
+        }
     }
 }
