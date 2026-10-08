@@ -12,7 +12,7 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.example.pertemuan4.R
-import java.lang.reflect.Modifier
+
 
 @Composable
 fun ActivityKeempat(modifier: Modifier){
@@ -22,12 +22,12 @@ fun ActivityKeempat(modifier: Modifier){
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
     Text(
-        stringResource(id = R.string.prodi),
+        stringResource( R.string.prodi),
         fontSize = 20.sp,
         fontWeight = FontWeight.Bold
     )
     Text(
-        stringResource(id = R.string.univ),
+        stringResource(R.string.univ),
         fontSize = 20.sp,
         fontWeight = FontWeight.Thin
     )
