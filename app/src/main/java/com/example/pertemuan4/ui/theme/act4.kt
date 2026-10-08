@@ -26,5 +26,10 @@ fun ActivityKeempat(modifier: Modifier){
         fontSize = 20.sp,
         fontWeight = FontWeight.Bold
     )
+    Text(
+        stringResource(id = R.string.univ),
+        fontSize = 20.sp,
+        fontWeight = FontWeight.Thin
+    )
     }
 }
