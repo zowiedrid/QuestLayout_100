@@ -17,9 +17,11 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.res.colorResource
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
+import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
@@ -27,9 +29,10 @@ import com.example.pertemuan4.R
 
 
 @Composable
-fun ActivityKeempat(modifier: Modifier){
+fun ActivityKeempat(modifier: Modifier = Modifier) {
     Column(
-        modifier = Modifier.fillMaxSize()
+        modifier = modifier
+            .fillMaxSize()
             .padding(top = 100.dp),
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
@@ -66,24 +69,32 @@ fun ActivityKeempat(modifier: Modifier){
                 ) {
                     Text(
                         stringResource(R.string.nama),
-                        fontSize = 20.sp,
-                        fontWeight = FontWeight.Bold
+                        fontSize = 30.sp,
+                        fontFamily = FontFamily.Cursive,
+                        color = Color.White,
+                        modifier = Modifier.padding(top = 15.dp)
                     )
                     Text(
                         stringResource(R.string.alamat),
-                        fontSize = 15.sp,
-                        fontWeight = FontWeight.Thin
+                        fontSize = 20.sp,
+                        color = Color.Yellow,
+                        modifier = Modifier.padding(top = 10.dp)
                     )
                 }
             }
-            Box(
-                modifier = Modifier
-                    .fillMaxWidth()
-                    .padding(10.dp),
-                contentAlignment = Alignment.CenterEnd
-            ) {
 
-            }
+        }
+        Box(
+            modifier = Modifier
+                .fillMaxSize()
+
+        ) {
+            Text(
+                stringResource(R.string.copy),
+                modifier = Modifier
+                    .align(Alignment.BottomCenter)
+                    .padding(bottom = 50.dp),
+            )
         }
     }
 }
