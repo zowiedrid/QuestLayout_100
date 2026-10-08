@@ -63,6 +63,11 @@ fun ActivityKeempat(modifier: Modifier){
                 Column(
                     modifier = Modifier.padding(10.dp)
                 ) {
+                    Text(
+                        stringResource(R.string.nama),
+                        fontSize = 20.sp,
+                        fontWeight = FontWeight.Bold
+                    )
 
                 }
             }
